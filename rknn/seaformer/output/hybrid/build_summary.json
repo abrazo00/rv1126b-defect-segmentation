@@ -1,0 +1,23 @@
+{
+  "dataset_path": "deploy/rknn/output/hybrid/quant_dataset.txt",
+  "dataset_count": 32,
+  "target_platform": "rv1126",
+  "fp": {
+    "target_platform": "rv1126",
+    "onnx_path": "deploy/rknn/output/hybrid/seaformer_front_smb1_smb4.onnx",
+    "output_path": "deploy/rknn/output/hybrid/seaformer_front_smb1_smb4.rv1126.fp.rknn",
+    "do_quantization": false,
+    "load_ret": 0,
+    "build_ret": -1,
+    "export_ret": null
+  },
+  "int8": {
+    "target_platform": "rv1126",
+    "onnx_path": "deploy/rknn/output/hybrid/seaformer_front_smb1_smb4.onnx",
+    "output_path": "deploy/rknn/output/hybrid/seaformer_front_smb1_smb4.rv1126.int8.rknn",
+    "do_quantization": true,
+    "load_ret": 0,
+    "build_ret": 0,
+    "export_ret": 0
+  }
+}

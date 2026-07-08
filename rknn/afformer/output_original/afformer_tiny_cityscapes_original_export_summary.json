@@ -1,0 +1,10 @@
+{
+  "onnx": "deploy/rknn/output_original/afformer_tiny_cityscapes_original_logits.onnx",
+  "max_abs_diff_vs_export_shim_torch": 8.278324127197266,
+  "shape": [
+    1,
+    2,
+    512,
+    512
+  ]
+}

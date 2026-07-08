@@ -1,0 +1,46 @@
+{
+  "config": "local_configs/seaformer/seaformer_small_1024x512_160k_1x8city.py",
+  "checkpoint": "work_dirs_1v50/seaformer_small_1024x512_160k_1x8city/iter_160000.pth",
+  "sample_image": "data_spilit/cityscapes/leftImg8bit/val/16237-BTB1-A_roughpos0-FP-FP-202503171502181561619-A-C1.jpg",
+  "input_size": [
+    512,
+    512
+  ],
+  "mean": [
+    123.675,
+    116.28,
+    103.53
+  ],
+  "std": [
+    58.395,
+    57.12,
+    57.375
+  ],
+  "to_rgb": true,
+  "rknn_reorder_channel": "2 1 0",
+  "num_classes": 2,
+  "full_onnx": "deploy/rknn/output/hybrid/seaformer_logits.onnx",
+  "front_onnx": "deploy/rknn/output/hybrid/seaformer_front_smb1_smb4.onnx",
+  "tail_onnx": "deploy/rknn/output/hybrid/seaformer_tail_cpu.onnx",
+  "torch_vs_full_onnx_max_abs_diff": 1.1444091796875e-05,
+  "torch_full_vs_hybrid_torch_max_abs_diff": 0.0,
+  "torch_full_vs_hybrid_onnx_max_abs_diff": 1.1444091796875e-05,
+  "detail_feat_shape": [
+    1,
+    48,
+    64,
+    64
+  ],
+  "mid_feat_shape": [
+    1,
+    160,
+    16,
+    16
+  ],
+  "logits_shape": [
+    1,
+    2,
+    512,
+    512
+  ]
+}

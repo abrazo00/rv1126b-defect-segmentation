@@ -1,0 +1,26 @@
+[ req ]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+req_extensions = req_ext
+
+[ dn ]
+CN = 100.81.26.139
+O = RV1126B Local Vision
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+IP.1 = 100.81.26.139
+DNS.1 = elf1126b-debian
+DNS.2 = localhost
+IP.2 = 127.0.0.1
+
+[ server_ext ]
+authorityKeyIdentifier = keyid,issuer
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names

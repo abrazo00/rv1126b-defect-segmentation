@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RV1126B 嵌入式视觉增强与 NPU 检测系统</title>
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem("rv1126b-theme") || "dark";
+  </script>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">RV</span>
+        <div>
+          <h1>RV1126B NPU Vision</h1>
+          <p>多源输入 / 图像增强 / SeaFormer 分割</p>
+        </div>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false">
+        <span>界面配色</span>
+        <strong>深色模式</strong>
+      </button>
+
+      <nav class="app-nav" aria-label="功能页面">
+        <button class="nav-item active" type="button" data-nav-target="overview">工作台</button>
+        <button class="nav-item" type="button" data-nav-target="mobile">手机摄像头</button>
+        <button class="nav-item" type="button" data-nav-target="enhance">图像增强</button>
+        <button class="nav-item" type="button" data-nav-target="image">图片检测</button>
+        <button class="nav-item" type="button" data-nav-target="video">视频流检测</button>
+        <button class="nav-item" type="button" data-nav-target="records">运行记录</button>
+      </nav>
+
+      <details class="panel config-panel" open>
+        <summary>全局运行配置</summary>
+        <label class="field">
+          <span>模型类型</span>
+          <select id="modelType">
+            <option value="int8">INT8</option>
+            <option value="fp">FP</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>前景像素阈值</span>
+          <input id="threshold" type="number" min="0" value="{{ default_threshold }}">
+        </label>
+        <label class="field">
+          <span>图像预处理</span>
+          <select id="preprocessMode">
+            {% for option in preprocess_options %}
+            <option value="{{ option.mode }}" {% if option.mode == default_preprocess_mode %}selected{% endif %}>{{ option.label }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="switch-row">
+          <input id="saveResults" type="checkbox">
+          <span>保存完整结果</span>
+        </label>
+        <div class="hint-box">
+          <strong>判定规则</strong>
+          <p>当前前景像素数大于阈值时判定为 <code>NG</code>，否则为 <code>OK</code>。预处理可用于改善弱光、噪声和边缘模糊场景。</p>
+        </div>
+      </details>
+    </aside>
+
+    <main class="content">
+      <section class="hero view-section active" data-view-section="overview">
+        <h2>RV1126B 嵌入式多源视觉增强与 NPU 分割检测系统</h2>
+        <p class="hero-copy">把本地摄像头、视频库、Web 上传和手机上传统一接入图像增强、RKNN NPU 推理、分割叠加、视频传输和运行数据记录链路。</p>
+      </section>
+
+      <section class="card view-section active" data-view-section="overview">
+        <div class="section-head">
+          <div>
+            <h3>实时视觉工作台</h3>
+            <p>集中查看最近一次 overlay、视频流状态、多源输入、图像增强、NPU 推理、分割后处理和 Web 传输链路。</p>
+          </div>
+          <button id="exportDemoReportBtn" class="toggle-btn" type="button">导出运行报告</button>
+        </div>
+        <div class="demo-console">
+          <div class="demo-preview">
+            <div class="demo-preview-screen">
+              <div id="demoPreviewPanel" class="demo-preview-placeholder">
+                <strong>等待输入</strong>
+                <p>完成单张检测或启动视频流后，这里会同步展示最近一次 overlay 或实时视频状态。</p>
+              </div>
+            </div>
+            <div id="demoLiveStrip" class="live-strip">
+              <span>输入源：--</span>
+              <span>预处理：--</span>
+              <span>模型：--</span>
+              <span>推理：--</span>
+              <span>FPS：--</span>
+            </div>
+          </div>
+          <div class="demo-side">
+            <div class="summary-box">
+              <strong>硬件处理链路</strong>
+              <div id="pipelinePanel" class="pipeline-panel"></div>
+            </div>
+            <div class="summary-box">
+              <strong>输入源矩阵</strong>
+              <div id="inputMatrixPanel" class="input-matrix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-grid compact-dashboard">
+          <div class="summary-box">
+            <strong>NPU 推理状态</strong>
+            <div id="performancePanel" class="stats-grid">
+              <div class="metric">FP 平均推理<strong>--</strong></div>
+              <div class="metric">INT8 平均推理<strong>--</strong></div>
+              <div class="metric">加速比<strong>--</strong></div>
+              <div class="metric">当前 FPS<strong>--</strong></div>
+            </div>
+          </div>
+          <div class="summary-box">
+            <strong>稳定运行记录</strong>
+            <div id="stabilityPanel" class="stats-grid">
+              <div class="metric">记录状态<strong>--</strong></div>
+              <div class="metric">运行时长<strong>--</strong></div>
+              <div class="metric">累计帧数<strong>--</strong></div>
+              <div class="metric">异常事件<strong>--</strong></div>
+            </div>
+            <div class="inline-actions small-actions">
+              <button id="stabilityStartBtn" class="toggle-btn" type="button">开始记录</button>
+              <button id="stabilityStopBtn" class="toggle-btn" type="button">停止记录</button>
+            </div>
+          </div>
+        </div>
+        <div id="exportStatus" class="status"></div>
+      </section>
+
+      <section class="card view-section active" data-view-section="overview">
+        <div class="section-head">
+          <div>
+            <h3>服务与接口状态</h3>
+            <p>显示接口可用性、当前模型加载状态、服务运行时长和请求累计，用于演示前快速确认环境。</p>
+          </div>
+        </div>
+        <div class="dashboard-grid">
+          <div class="summary-box service-health-box" id="serviceHealthPanel">
+            <strong>服务状态</strong>
+            <div class="service-health-grid">
+              <div class="metric">接口状态<strong>检查中</strong></div>
+              <div class="metric">当前已加载模型<strong>--</strong></div>
+              <div class="metric">运行时长<strong>--</strong></div>
+              <div class="metric">累计请求<strong>--</strong></div>
+            </div>
+          </div>
+          <div class="summary-box">
+            <strong>服务信息</strong>
+            <ul class="meta-list">
+              <li>访问端口：<code>{{ default_port }}</code></li>
+              <li>默认展示：<code>{{ preview_limit }}</code> 条</li>
+              <li>内存口径：推理阶段进程内存</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card mobile-camera-card view-section" data-view-section="mobile" hidden>
+        <div class="section-head">
+          <div>
+            <h3>手机摄像头实时检测</h3>
+            <p>手机浏览器授权摄像头后，页面按固定间隔抽帧上传到板端，由 RKNN NPU 推理后返回叠加结果。</p>
+          </div>
+          <div class="inline-actions">
+            <button id="mobileCameraStartBtn" class="primary-btn compact" type="button">开启摄像头</button>
+            <button id="mobileCameraRunBtn" class="toggle-btn" type="button">开始实时检测</button>
+            <button id="mobileCameraSwitchBtn" class="toggle-btn" type="button">切换镜头</button>
+            <button id="mobileCameraStopBtn" class="toggle-btn" type="button">停止</button>
+          </div>
+        </div>
+        <div class="mobile-camera-grid">
+          <div class="mobile-camera-stage">
+            <video id="mobileCameraVideo" playsinline muted></video>
+            <div id="mobileCameraPlaceholder" class="mobile-camera-placeholder">
+              <strong>等待摄像头授权</strong>
+              <p>iPhone 首次使用时先安装并信任 <a href="http://100.81.26.139:8000/static/rv1126b-camera-ca.crt">本地 CA 证书</a>，再访问 <code>https://100.81.26.139:8443</code> 后开启摄像头。</p>
+            </div>
+          </div>
+          <div class="mobile-camera-stage">
+            <img id="mobileCameraResult" alt="手机摄像头检测结果">
+            <div id="mobileCameraResultPlaceholder" class="mobile-camera-placeholder">
+              <strong>等待检测结果</strong>
+              <p>启动实时检测后，这里会显示板端返回的分割叠加画面。</p>
+            </div>
+          </div>
+          <div class="summary-box mobile-camera-summary">
+            <strong>实时状态</strong>
+            <div id="mobileCameraStats" class="stats-grid">
+              <div class="metric">状态<strong>未启动</strong></div>
+              <div class="metric">输入源<strong>手机摄像头</strong></div>
+              <div class="metric">最新推理<strong>--</strong></div>
+              <div class="metric">估算 FPS<strong>--</strong></div>
+              <div class="metric">判定<strong>--</strong></div>
+              <div class="metric">累计帧数<strong>0</strong></div>
+            </div>
+            <div id="mobileCameraStatus" class="status"></div>
+          </div>
+        </div>
+        <canvas id="mobileCameraCanvas" class="hidden" width="640" height="360"></canvas>
+      </section>
+
+      <section class="card view-section" data-view-section="enhance" hidden>
+        <div class="section-head">
+          <div>
+            <h3>一键对比多种图像增强策略</h3>
+            <p>上传同一张图，横向比较所有预处理模式，选择更适合当前输入的增强策略。</p>
+          </div>
+        </div>
+        <form id="comparePreprocessForm" class="uploader">
+          <label class="dropzone">
+            <input id="comparePreprocessImage" name="image" type="file" accept="image/*" required>
+            <span>选择一张弱光、模糊、低对比或反光图片，横向比较所有增强模式</span>
+          </label>
+          <button class="primary-btn" type="submit">一键生成对比</button>
+        </form>
+        <div id="comparePreprocessPreview" class="selection-preview empty">尚未选择图片</div>
+        <div id="comparePreprocessStatus" class="status"></div>
+        <div id="comparePreprocessResult"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="enhance" hidden>
+        <div class="section-head">
+          <div>
+            <h3>复杂场景策略</h3>
+            <p>用弱光、反光、低对比、模糊、噪声和遮挡样本快速切换推荐预处理策略。</p>
+          </div>
+        </div>
+        <div id="robustnessScenarios" class="scenario-grid"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="records" hidden>
+        <div class="section-head">
+          <div>
+            <h3>系统状态、事件记录与最近任务</h3>
+            <p>记录运行请求、视频帧、低质图像提示和最近任务，用于追踪系统状态和处理过程。</p>
+          </div>
+        </div>
+        <div class="dashboard-grid">
+          <div class="summary-box">
+            <strong>系统统计</strong>
+            <div id="systemStatsPanel" class="stats-grid">
+              <div class="metric">累计图片<strong>--</strong></div>
+              <div class="metric">平均推理<strong>--</strong></div>
+              <div class="metric">NG 数量<strong>--</strong></div>
+              <div class="metric">低质图像<strong>--</strong></div>
+              <div class="metric">视频会话<strong>--</strong></div>
+              <div class="metric">视频帧数<strong>--</strong></div>
+            </div>
+          </div>
+          <div class="summary-box">
+            <strong>最新事件</strong>
+            <div id="eventFeed" class="event-feed empty-panel">当前还没有事件记录</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card view-section" data-view-section="enhance" hidden>
+        <div class="section-head">
+          <div>
+            <h3>单独查看图像预处理前后效果</h3>
+            <p>只观察预处理输出，不执行分割推理，适合先筛选输入样本。</p>
+          </div>
+        </div>
+        <form id="preprocessForm" class="uploader">
+          <label class="dropzone">
+            <input id="preprocessImage" name="image" type="file" accept="image/*" required>
+            <span>选择一张图片，仅查看预处理结果</span>
+          </label>
+          <button class="primary-btn" type="submit">查看预处理结果</button>
+        </form>
+        <div id="preprocessPreview" class="selection-preview empty">尚未选择图片</div>
+        <div id="preprocessStatus" class="status"></div>
+        <div id="preprocessResult"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="image" hidden>
+        <div class="section-head">
+          <div>
+            <h3>上传一张图片查看完整结果</h3>
+            <p>输出原图、预处理图、叠加结果和彩色掩码，并显示推理耗时与画质指标。</p>
+          </div>
+        </div>
+        <form id="singleForm" class="uploader">
+          <label class="dropzone">
+            <input id="singleImage" name="image" type="file" accept="image/*" required>
+            <span>点击选择图片，或直接拖放到这里</span>
+          </label>
+          <button class="primary-btn" type="submit">开始单张推理</button>
+        </form>
+        <div id="singlePreview" class="selection-preview empty">尚未选择图片</div>
+        <div id="singleStatus" class="status"></div>
+        <div id="singleResult"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="image" hidden>
+        <div class="section-head">
+          <div>
+            <h3>多张上传并返回 OK 文件名</h3>
+            <p>一次处理多张输入，并导出 CSV、OK 列表和 NG 列表。</p>
+          </div>
+        </div>
+        <form id="batchForm" class="uploader">
+          <label class="dropzone">
+            <input id="batchImages" name="images" type="file" accept="image/*" multiple required>
+            <span>可一次上传多张图片，页面默认仅展开前 3 项</span>
+          </label>
+          <button class="primary-btn" type="submit">开始批量推理</button>
+        </form>
+        <div id="batchPreview" class="selection-preview empty">尚未选择图片</div>
+        <div id="batchStatus" class="status"></div>
+        <div id="batchSummary"></div>
+        <div id="batchFilterBar"></div>
+        <div id="batchResults"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="records" hidden>
+        <div class="section-head">
+          <div>
+            <h3>回看最近跑过的单张与批量任务</h3>
+            <p>保留运行过程中使用的模型、预处理策略、阈值和平均推理耗时。</p>
+          </div>
+        </div>
+        <div id="recentTasks" class="recent-tasks empty-panel">当前还没有任务记录</div>
+      </section>
+
+      <section class="card view-section" data-view-section="video" hidden>
+        <div class="section-head">
+          <div>
+            <h3>视频源与控制</h3>
+            <p>支持 RTSP / HTTP / 本地视频路径 / 摄像头编号。启动后结果会直接叠加在视频帧上。</p>
+          </div>
+        </div>
+        <label class="field">
+          <span>视频库选择</span>
+          <div id="videoLibraryDropdown" class="library-dropdown">
+            <button id="videoLibraryTrigger" class="library-trigger" type="button">正在读取视频库...</button>
+            <div id="videoLibraryMenu" class="library-menu hidden"></div>
+          </div>
+        </label>
+        <label class="field">
+          <span>视频源</span>
+          <input id="videoSource" type="text" placeholder="例如 rtsp://... 或 0">
+        </label>
+        <div class="inline-actions">
+          <button id="videoLibraryRefreshBtn" class="toggle-btn" type="button">刷新视频库</button>
+          <button id="videoUseSelectedBtn" class="toggle-btn" type="button">使用选中视频</button>
+        </div>
+        <form id="videoUploadForm" class="video-upload-row">
+          <label class="dropzone compact-dropzone">
+            <input id="videoUploadInput" name="video" type="file" accept="video/*">
+            <span>上传视频并保存到视频库</span>
+          </label>
+          <button id="videoUploadBtn" class="toggle-btn" type="submit">上传视频</button>
+        </form>
+        <div id="videoUploadStatus" class="status"></div>
+        <div class="inline-actions">
+          <button id="videoProbeBtn" class="toggle-btn" type="button">检测视频源</button>
+          <button id="videoStartBtn" class="primary-btn compact" type="button">开始视频检测</button>
+          <button id="videoSnapshotBtn" class="toggle-btn" type="button">保存当前帧</button>
+          <button id="videoStopBtn" class="toggle-btn" type="button">停止</button>
+        </div>
+        <div id="videoStatus" class="status"></div>
+      </section>
+
+      <section class="card view-section" data-view-section="video" hidden>
+        <div class="section-head">
+          <div>
+            <h3>实时查看叠加后的检测画面</h3>
+            <p>视频检测画面会叠加模型、预处理、判定、推理时间和 FPS。</p>
+          </div>
+        </div>
+        <div class="video-grid">
+          <div class="video-stage">
+            <div id="videoPlaceholder" class="video-placeholder">
+              <div class="video-placeholder-card">
+                <strong>视频检测待启动</strong>
+                <p>输入视频源后点击“开始视频检测”，这里会显示带检测叠加信息的实时画面。</p>
+              </div>
+            </div>
+            <img id="videoStream" alt="视频检测画面" />
+          </div>
+          <div class="video-note">
+            <div class="summary-box">
+              <strong>使用说明</strong>
+              <p>视频画面会叠加模型类型、预处理策略、判定结果、前景像素、纯推理时间、估算 FPS 和推理内存，占位封面会在未启动时给出明确状态。</p>
+            </div>
+            <div class="summary-box">
+              <strong>最近一帧状态</strong>
+              <div id="videoInfoPanel" class="video-info-panel">
+                <div class="metric">状态<strong>未启动</strong></div>
+                <div class="metric">模型<strong>--</strong></div>
+                <div class="metric">预处理<strong>--</strong></div>
+                <div class="metric">判定<strong>--</strong></div>
+                <div class="metric">前景像素<strong>--</strong></div>
+                <div class="metric">推理时间<strong>--</strong></div>
+                <div class="metric">估算 FPS<strong>--</strong></div>
+                <div class="metric">画质得分<strong>--</strong></div>
+              </div>
+            </div>
+            <div class="summary-box">
+              <strong>推荐输入</strong>
+              <p>`0` 表示默认摄像头；也支持 `rtsp://...`、`http://...` 和本地视频文件路径。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    window.APP_CONFIG = {
+      previewLimit: {{ preview_limit }},
+      eventPreviewLimit: {{ event_preview_limit }}
+    };
+  </script>
+  <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="关闭">关闭</button>
+    <img id="lightboxImage" alt="放大查看图片">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

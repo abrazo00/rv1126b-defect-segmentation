@@ -1,0 +1,8 @@
+{
+  "onnx_path": "/home/shiro/AFFormer/deploy/rknn/output_original/afformer_tiny_cityscapes_original_logits.onnx",
+  "dataset": "/home/shiro/AFFormer/deploy/rknn/output_original/quant_dataset_clean.txt",
+  "out_path": "/home/shiro/AFFormer/deploy/rknn/output_original/afformer_tiny_cityscapes_original.rv1126b.int8.rknn",
+  "load_ret": 0,
+  "build_ret": 0,
+  "export_ret": 0
+}

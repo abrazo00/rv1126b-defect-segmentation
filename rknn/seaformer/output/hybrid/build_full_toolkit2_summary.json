@@ -1,0 +1,28 @@
+{
+  "target_platform": "rv1126b",
+  "onnx": "deploy/rknn/output/hybrid/seaformer_logits.onnx",
+  "dataset": "deploy/rknn/output/hybrid/quant_dataset_rgb_npy.txt",
+  "dataset_root": "/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train",
+  "dataset_source_manifest": "deploy/rknn/output/hybrid/quant_dataset_rgb_npy_sources.txt",
+  "dataset_count": 256,
+  "runtime_input_color": "RGB",
+  "runtime_input_dtype": "uint8",
+  "fp": {
+    "target_platform": "rv1126b",
+    "onnx_path": "deploy/rknn/output/hybrid/seaformer_logits.onnx",
+    "output_path": "deploy/rknn/output/hybrid/seaformer_logits.rv1126b.fp.rknn",
+    "do_quantization": false,
+    "load_ret": 0,
+    "build_ret": 0,
+    "export_ret": 0
+  },
+  "int8": {
+    "target_platform": "rv1126b",
+    "onnx_path": "deploy/rknn/output/hybrid/seaformer_logits.onnx",
+    "output_path": "deploy/rknn/output/hybrid/seaformer_logits.rv1126b.int8.rknn",
+    "do_quantization": true,
+    "load_ret": 0,
+    "build_ret": 0,
+    "export_ret": 0
+  }
+}

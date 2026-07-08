@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runtime/tmp/
+runtime/saved/
+runtime_out/
+runtime_retest/
+runtime_bench/
+videos_from_jpegs/
+JPEGImages/
+backups/
+*.key

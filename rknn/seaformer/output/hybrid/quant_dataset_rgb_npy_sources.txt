@@ -1,0 +1,256 @@
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/14548-47_BTB2-SBL-3201259519155-0B-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/14548-47_BTB2-SMD-3201773943781-1B-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/14548-47_BTB2-SMD-3214672176302-1B-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/14736-48_BTB3-SBL-3211559256973-0B-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503142225512103691-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503161959127732851-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503162150336775202-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503170011427113777-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503170533096661719-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503170955303234427-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171043008228771-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171210150447135-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-20250317130201454753-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171302467686011-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171503165737882-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171539249567311-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503171540223266490-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503190544589959236-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503190759482824728-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503190816251596690-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-20250321210013742367-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503212258550096809-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503220859273312312-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503231039457005335-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503231042289568015-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503240503537749857-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503240511226464896-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503240512294962060-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503240514384043935-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503240527354325304-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503241100451506798-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503241109027409963-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503241109598605928-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503241122195171526-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB1-A_roughpos0-FP-FP-202503241205586619450-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503141658403433078-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503142246500042467-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-20250316214939287503-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503162152356134520-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170006571567822-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170008323341498-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170352321175552-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170358339473344-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170400083034321-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170412013901422-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170455392178237-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-20250317052057629571-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503170538466921979-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171207067633257-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171212118461960-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171224105545520-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171246303437891-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171253579872883-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503171640587394069-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503180243081255580-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503181137209695424-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503181153410334082-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503181200212694404-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-20250318133725257544-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503190754070996442-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503190802103829355-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503190804532392904-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503190806464062526-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503211805226229756-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503232148557649661-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503240038480145998-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503240538231459375-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-20250324114653541977-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503241548247226884-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB2-A_roughpos0-FP-FP-202503260107291658481-A-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503150044208089622-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503162206159543322-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503162224094072477-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503170402441251404-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503170500567399337-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503171157447944980-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503171408006956291-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503171458336753569-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503171641216298474-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-20250318030656657647-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503181100267885160-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503181137208929240-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503190336572572141-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503190531323617465-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503190825470097477-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503190834110811030-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503211804547463418-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503212059179376297-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-20250321210021423462-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503212158454469576-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503212202145859220-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503221738598077779-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503231043033063172-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503240035501048430-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503240449535983846-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503240513027165203-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-20250324110114283717-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503241132027131713-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503241143041857629-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503241145223346741-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503241205587433119-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503241552213433009-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503251615522243540-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503271610125996510-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503271611468497811-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-20250327162410476981-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503271625071171269-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503271626282949308-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503271644595526338-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-20250328060250298226-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB3-A_roughpos2-FP-FP-202503280621034031441-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503141655058803323-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503141658400591546-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503142230027877494-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503142342070584333-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503162003047703143-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503162156521474465-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503162217439222581-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503162256327707229-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503162311199103235-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503170349216481784-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503170400080518704-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503170537594393182-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503170612311796609-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503170950574095607-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503171212115804864-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503171333470735279-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503171445133718370-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503171449372925764-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503171634544397560-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503181137130579957-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503181655429359852-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503190531323617465-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503190544063593207-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503190750506953788-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503190817243893563-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503190828117871186-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503191403467123206-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-20250321210021423462-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503212114504323203-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503240540418329912-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503240939125359156-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503241103185659014-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503241121533613618-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503241219216915601-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503251615243002375-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-20250326011815670283-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-20250327161842376270-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503280624183646701-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/16237-BTB4-A_roughpos2-FP-FP-202503280625005008335-A-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R015UV00000PN+KIDG-3706-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R016ME00000PN+KIDG-3729-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R0171F00000PN+KIDG-3740-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R017YD00000PN+KIDG-3754-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R017YH00000PN+KIDG-3755-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R018FS00000PN+KIDG-3772-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R018MF00000PN+KIDG-3773-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R019F700000PN+KIDG-3795-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R019N400000PN+KIDG-3800-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01DQL00000PN+KIDG-3912-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01E5300000PN+KIDG-3931-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01FAZ00000PN+KIDG-3966-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01FE900000PN+KIDG-3968-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01FFF00000PN+KIDG-3971-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01FV200000PN+KIDG-3978-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01HFK00000PN+KIDG-4000-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R01NG700000PN+KIDG-4016-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R0232K00000PN+KLGG-4055-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R024QK00000PN+KLGG-4092-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R0267H00000PN+KLGG-4127-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2R02AE700000PN+KLGG-4213-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S01MJC00000PN+KLGG-4282-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S01N1W00000PN+KLGG-4295-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S01QCW00000PN+KLGG-4364-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S01RPE00000PN+KLGG-4411-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S8020500000PN+KI8G-4431-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S802GP00000PN+KI8G-4440-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S802HX00000PN+KI8G-4446-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S8031G00000PN+KI8G-4458-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S805RM00000PN+KI8G-4483-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S807E400000PN+KI8G-4509-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S80AV900000PN+KI8G-4540-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2S80BG300000PN+KI8G-4557-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2T007LK00000PN+KI8G-4574-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2T00DVR00000PN+KI8G-4598-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2U0025N0000DCQ+KIGG-4615-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2U002MG0000DCQ+KIGG-4619-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC- C47H2U00NAH0000DCQ+KIGG-4624-C1_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K0005300000PN+KIDG-21-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K0006V00000PN+KIDG-24-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K0011300000PN+KIDG-46-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K004FZ00000PN+KIDG-130-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K006MK00000PN+KIDG-170-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K006XK00000PN+KIDG-178-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K007B900000PN+KIDG-189-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K007F500000PN+KIDG-192-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K007H300000PN+KIDG-193-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K0081300000PN+KIDG-210-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K00A5900000PN+KIDG-252-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K00BUX00000PN+KIDG-266-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K00DDV00000PN+KIDG-287-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2K00DF900000PN+KIDG-291-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00A5M00000PN+KIDG-357-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00ATV00000PN+KIDG-377-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00EZ000000PN+KIDG-414-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00FAQ00000PN+KIDG-425-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00FLA00000PN+KIDG-437-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00G3E00000PN+KIDG-452-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00GBS00000PN+KIDG-458-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00H7C00000PN+KIDG-479-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00HX600000PN+KIDG-511-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00J0A00000PN+KIDG-513-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00KWC00000PN+KIDG-561-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00LDS00000PN+KIDG-577-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00M4A00000PN+KIDG-613-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00MFG00000PN+KIDG-625-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2L00ML200000PN+KIDG-631-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2M00S5900000PN+KIDG-718-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2M00W9G00000PN+KIDG-736-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2M00WMQ00000PN+KIDG-741-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2M0127Z00000PN+KIDG-756-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N000NE00000PN+KIDG-785-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N002PY00000PN+KIDG-849-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N004JZ00000PN+KIDG-915-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N004TB00000PN+KIDG-928-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N00AUY00000PN+KIDG-1171-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N00GNF00000PN+KIDG-1187-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N00GX100000PN+KIDG-1192-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N00HG500000PN+KIDG-1202-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-DC2- C47H2N00PY400000PN+KIDG-1216-C0_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3SARNNA0000ATQ+GCGG-4872-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3U5BFB00000ATQ+GLGJ-4880-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3W00LW10000ATQ+GLGJ-4909-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XAN8XT00000PN+KLVG-4934-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XAN9JQ00000PN+KLVG-4944-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANAJ000000PN+KLVG-4958-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANG1200000PN+KLVG-5025-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANGWY00000PN+KLVG-5037-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANH7K00000PN+KLVG-5041-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANP8W00000PN+KLVG-5073-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANQ6200000PN+KLVG-5080-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANQGS00000PN+KLVG-5084-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANRZ000000PN+KLVG-5094-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANSHU00000PN+KLVG-5100-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XANZ4X00000PN+KLVG-5133-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XAP5B700000PN+KLVG-5177-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3XAP7ZF00000PN+KLVG-5196-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y0039R00000PK+GCGJ-5329-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y007CB00000PK+GCGJ-5420-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y007CF00000PK+GCGJ-5422-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y007VQ00000PK+GCGJ-5428-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y800LX00000PN+KLVG-5657-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y805QM00000PN+KLVG-5759-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y809HS00000PN+KLVG-5800-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y80A4C00000PN+KLVG-5806-C2_leftImg8bit.png
+/home/shiro/AFFormer/data/cityscapes/leftImg8bit/train/8X-83_BTB2-FM- C47H3Y81DKB00000PN+KLVG-5912-C2_leftImg8bit.png

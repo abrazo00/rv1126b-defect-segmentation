@@ -1,0 +1,5 @@
+RV1126B segment project code package
+created_at=2026-06-27T08:58:26
+included=seaformer-web,rknn
+excluded=JPEGImages,videos_from_jpegs,backups,runtime,tmp,saved,__pycache__,runtime_out,runtime_retest,runtime_bench,quant_rgb_npy,quant_images
+If full datasets or runtime outputs are needed, create a separate assets package.
